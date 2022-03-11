@@ -7,6 +7,9 @@ import Storage from 'vue-ls'
 import router from './router'
 import store from './store/'
 import { VueAxios } from "@/utils/request"
+//周晨靓新增
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
 
 require('@jeecg/antd-online-mini')
 require('@jeecg/antd-online-mini/dist/OnlineForm.css')
